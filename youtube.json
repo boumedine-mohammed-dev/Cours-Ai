@@ -1,0 +1,148 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "lcKY5rx7uY7Hgf0JrW2rysXBwJs",
+    "nextPageToken": "CAQQAA",
+    "regionCode": "DZ",
+    "pageInfo": {
+        "totalResults": 377,
+        "resultsPerPage": 4
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "a2CedDAlltI0Fvfmkh_4TINm3eQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "s2skans2dP4"
+            },
+            "snippet": {
+                "publishedAt": "2021-11-06T23:57:09Z",
+                "channelId": "UCTZRcDjjkVajGL6wd76UnGg",
+                "title": "React JS Explained In 10 Minutes",
+                "description": "A list of the core concepts every React developer should have a solid grasp on. React Course: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/s2skans2dP4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/s2skans2dP4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/s2skans2dP4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Dennis Ivy",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-11-06T23:57:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "gTG2Wo5KlhvTaH_EGVj_MZMHvyM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wXK3ASPcKnA"
+            },
+            "snippet": {
+                "publishedAt": "2020-07-21T12:42:14Z",
+                "channelId": "UCS1NeZF0Or2E1RAV9hQJz3g",
+                "title": "React JS Building Components #10",
+                "description": "React JS Full Course | 30 Hours Training Full Playlist for React JS Full Course ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wXK3ASPcKnA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wXK3ASPcKnA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wXK3ASPcKnA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Code with tkssharma",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-07-21T12:42:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "zHt1mHtuG6KxMGjcLTcAzt6_Hm8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KAwCbcn19YU"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-30T13:22:22Z",
+                "channelId": "UCsvqVGtbbyHaMoevxPAq9Fg",
+                "title": "React JS Full Course | React.js Full Tutorial | Learn React.js | ReactJS Training | Simplilearn",
+                "description": "Full Stack Java Developer Program (Discount Code - YTBE15) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KAwCbcn19YU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KAwCbcn19YU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KAwCbcn19YU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Simplilearn",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-30T13:22:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3uRSmwGMLPyB1G04rJAWDz4qQQ0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "O9vE17DcV-M"
+            },
+            "snippet": {
+                "publishedAt": "2020-07-21T12:41:34Z",
+                "channelId": "UCS1NeZF0Or2E1RAV9hQJz3g",
+                "title": "React JS Building Components #09",
+                "description": "React JS Full Course | 30 Hours Training Full Playlist for React JS Full Course ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/O9vE17DcV-M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/O9vE17DcV-M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/O9vE17DcV-M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Code with tkssharma",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-07-21T12:41:34Z"
+            }
+        }
+    ]
+}
