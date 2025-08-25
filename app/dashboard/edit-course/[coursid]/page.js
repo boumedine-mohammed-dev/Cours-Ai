@@ -11,7 +11,6 @@ function Editcourse({ view = false }) {
     const getCourseInfo = async () => {
         setloading(true);
         const result = await axios.get("/api/courses?coursid=" + coursid)
-        console.log(result.data)
         setdata(result.data)
         setloading(false)
     }

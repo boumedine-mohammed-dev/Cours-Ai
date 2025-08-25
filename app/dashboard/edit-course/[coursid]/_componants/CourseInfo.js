@@ -8,7 +8,6 @@ import { useRouter } from 'next/navigation'
 import { toast } from "sonner"
 import Link from 'next/link'
 function CourseInfo({ data, viewcourse }) {
-    console.log("============", data)
     const router = useRouter();
     const [isLoading, setisLoading] = useState(false);
     const layout = data?.courseJson?.course
@@ -20,12 +19,10 @@ function CourseInfo({ data, viewcourse }) {
                 name: data.name,
                 courseid: data.cid
             })
-            console.log(result.data)
             toast.success("Course  Has Been Generated Successfully.")
             router.push("/dashboard")
         }
         catch (error) {
-            console.log(error)
             toast.error("Error Sending Data.")
 
         }

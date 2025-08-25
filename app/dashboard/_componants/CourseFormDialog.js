@@ -27,17 +27,13 @@ function CourseFormDialog() {
     const router = useRouter();
     const [DataForm, setDataForm] = useState({ Name: "", Description: "", NumbreChapetrs: 1, IncludeVideo: false, ChooseLevel: "", Category: "" })
     const [Loading, setLoading] = useState(false)
-    console.log(DataForm)
     const onGenerateCourse = async () => {
         setLoading(true)
         const result = await axios.post("/api/GenerateCourse", {
             ...DataForm
         })
-        console.log(result.data)
         setLoading(false)
         router.push("/dashboard/edit-course/" + result.data.courseid)
-
-
     }
     return (
         <div>

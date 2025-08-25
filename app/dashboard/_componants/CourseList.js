@@ -12,7 +12,6 @@ function CourseList() {
     const { user } = useUser();
     const getcourselist = async () => {
         const result = await axios.get("/api/courses")
-        console.log(result.data)
         setcourseList(result.data)
     }
     useEffect(() => {

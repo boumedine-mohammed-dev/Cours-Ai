@@ -9,14 +9,11 @@ import {
 import { SelectChaptersContext } from '@/context/SelectChapters';
 import { useContext } from 'react';
 function ChapterListSideBar({ data }) {
-    console.log(data)
     const { selected, setselected } = useContext(SelectChaptersContext)
     const courses = data?.courses;
     const enrolToCourse = data?.enrolToCourse;
     const courseContent = data?.courses?.courseContent;
-    console.log(courses)
-    console.log(enrolToCourse)
-    console.log(courseContent)
+
     return (
         <div className='h-screen w-80 bg-slate-100'>
             <h2 className='text-blue-400 m-4 text-xl' >Chapters {courseContent?.length}</h2>

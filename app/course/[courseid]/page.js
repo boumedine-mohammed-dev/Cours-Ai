@@ -11,12 +11,10 @@ function Course() {
     const getEnrolledCourse = async () => {
         const result = await axios.get("/api/enroll-course?courseid=" + courseid)
         setdata(result.data)
-        console.log(result.data)
     }
     useEffect(() => {
         getEnrolledCourse();
     }, [])
-    console.log(courseid)
     return (
         <div>
             <Header hideSideBar={true} />

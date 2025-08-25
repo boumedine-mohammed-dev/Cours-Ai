@@ -7,7 +7,6 @@ function EnrollCourse() {
     const getEnrolledCourse = async () => {
         const result = await axios.get("/api/enroll-course")
         setenrollcourse(result.data)
-        console.log(result.data)
     }
     useEffect(() => {
         getEnrolledCourse();

@@ -5,18 +5,14 @@ import { NextResponse } from "next/server"
 import { currentUser } from '@clerk/nextjs/server';
 export async function GET(req) {
     const { searchParams } = new URL(req.url)
-    console.log("=============", req)
-    console.log("=============", searchParams)
     const user = await currentUser()
     const coursid = searchParams.get("coursid")
     if (coursid) {
         const result = await db.select().from(coursesTable).where(eq(coursesTable.cid, coursid))
-        console.log("we", result)
         return NextResponse.json(result[0])
     }
     else {
         const result = await db.select().from(coursesTable).where(eq(coursesTable.email, user?.primaryEmailAddress?.emailAddress))
-        console.log("wee", result)
         return NextResponse.json(result)
     }
 }

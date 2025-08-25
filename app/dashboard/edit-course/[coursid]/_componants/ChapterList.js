@@ -3,8 +3,6 @@ import { Gift } from 'lucide-react'
 
 function ChapterList({ course }) {
     const courseLayout = course?.courseJson?.course
-    console.log(courseLayout)
-    console.log(course)
     return (
         <div className='p-5'>
             <h2 className='font-bold text-3xl text-center mb-10'>📚 Chapters & Topics</h2>

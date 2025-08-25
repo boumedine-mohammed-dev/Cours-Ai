@@ -3,7 +3,6 @@ import { useContext } from 'react'
 import { SelectChaptersContext } from '@/context/SelectChapters';
 import YouTube from 'react-youtube'
 function ChapterContent({ data }) {
-    console.log(data)
     const courses = data?.courses;
     const enrolTocourse = data?.enrollToCourseTable;
     const courseContent = data?.courses?.courseContent
